@@ -14,6 +14,7 @@
 		9791410E27FB42B5005364AF /* swiftUI_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9791410D27FB42B5005364AF /* swiftUI_testTests.swift */; };
 		9791411827FB42B5005364AF /* swiftUI_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9791411727FB42B5005364AF /* swiftUI_testUITests.swift */; };
 		9791411A27FB42B5005364AF /* swiftUI_testUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9791411927FB42B5005364AF /* swiftUI_testUITestsLaunchTests.swift */; };
+		9791412727FB4AF3005364AF /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9791412627FB4AF3005364AF /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		9791411327FB42B5005364AF /* swiftUI-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swiftUI-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9791411727FB42B5005364AF /* swiftUI_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftUI_testUITests.swift; sourceTree = "<group>"; };
 		9791411927FB42B5005364AF /* swiftUI_testUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftUI_testUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9791412627FB4AF3005364AF /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				979140FC27FB42B4005364AF /* swiftUI_testApp.swift */,
 				979140FE27FB42B4005364AF /* ContentView.swift */,
 				9791410027FB42B5005364AF /* Assets.xcassets */,
+				9791412627FB4AF3005364AF /* SwiftUIView.swift */,
 				9791410227FB42B5005364AF /* Preview Content */,
 			);
 			path = "swiftUI-test";
@@ -259,6 +262,7 @@
 			files = (
 				979140FF27FB42B4005364AF /* ContentView.swift in Sources */,
 				979140FD27FB42B4005364AF /* swiftUI_testApp.swift in Sources */,
+				9791412727FB4AF3005364AF /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
