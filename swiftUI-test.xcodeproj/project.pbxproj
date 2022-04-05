@@ -22,6 +22,7 @@
 		9791413927FB5B82005364AF /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9791413827FB5B82005364AF /* LandmarkRow.swift */; };
 		9791413B27FBFEEE005364AF /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9791413A27FBFEEE005364AF /* LandmarkList.swift */; };
 		9791413D27FC0052005364AF /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9791413C27FC0052005364AF /* LandmarkDetail.swift */; };
+		97EAFF8A27FC2C39005A9AB6 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 97EAFF8927FC2C39005A9AB6 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		9791413827FB5B82005364AF /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		9791413A27FBFEEE005364AF /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		9791413C27FC0052005364AF /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		97EAFF8927FC2C39005A9AB6 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		979140F027FB42B4005364AF = {
 			isa = PBXGroup;
 			children = (
+				97EAFF8927FC2C39005A9AB6 /* .gitignore */,
 				979140FB27FB42B4005364AF /* swiftUI-test */,
 				9791410C27FB42B5005364AF /* swiftUI-testTests */,
 				9791411627FB42B5005364AF /* swiftUI-testUITests */,
@@ -279,6 +282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97EAFF8A27FC2C39005A9AB6 /* .gitignore in Resources */,
 				9791410427FB42B5005364AF /* Preview Assets.xcassets in Resources */,
 				9791410127FB42B5005364AF /* Assets.xcassets in Resources */,
 				9791412D27FB5790005364AF /* landmarkData.json in Resources */,
