@@ -9,7 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        LandmarkList()
+        VStack{
+            Text("Hello world")
+                .font(.title)
+                .foregroundColor(.green)
+                .padding()
+        }
     }
 }
 
