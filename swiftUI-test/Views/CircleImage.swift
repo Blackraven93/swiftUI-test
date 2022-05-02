@@ -1,27 +1,24 @@
 //
-//  SwiftUIView.swift
+//  CircleImage.swift
 //  swiftUI-test
 //
-//  Created by apple developer academy on 2022/04/05.
+//  Created by apple developer academy on 2022/05/02.
 //
 
 import SwiftUI
 
 struct CircleImage: View {
-    var image: Image
-    
     var body: some View {
-        image
+        Image("turtlerock")
             .clipShape(Circle())
             .overlay {
                 Circle().stroke(.white, lineWidth: 4)
-            }
-            .shadow(radius: 7)
+            }.shadow(radius: 7)
     }
 }
 
 struct CircleImage_Previews: PreviewProvider {
     static var previews: some View {
-        CircleImage(image: Image("turtlerock"))
+        CircleImage()
     }
 }
