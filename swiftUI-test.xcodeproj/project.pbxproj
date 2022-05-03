@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		975C5EF9281FF036003DA5D8 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975C5EF8281FF036003DA5D8 /* CircleImage.swift */; };
-		975C5EFB281FF287003DA5D8 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975C5EFA281FF287003DA5D8 /* MapView.swift */; };
-		979140FD27FB42B4005364AF /* LandMarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979140FC27FB42B4005364AF /* LandMarksApp.swift */; };
-		979140FF27FB42B4005364AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979140FE27FB42B4005364AF /* ContentView.swift */; };
+		974A993028202113003F7EEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974A992F28202113003F7EEE /* ContentView.swift */; };
+		974A99322820219C003F7EEE /* LandMarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974A99312820219C003F7EEE /* LandMarksApp.swift */; };
+		974A99342820F8B8003F7EEE /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974A99332820F8B8003F7EEE /* CircleImage.swift */; };
+		974A99382820FA50003F7EEE /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974A99372820FA50003F7EEE /* MapView.swift */; };
 		9791410127FB42B5005364AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9791410027FB42B5005364AF /* Assets.xcassets */; };
 		9791410427FB42B5005364AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9791410327FB42B5005364AF /* Preview Assets.xcassets */; };
 		9791410E27FB42B5005364AF /* swiftUI_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9791410D27FB42B5005364AF /* swiftUI_testTests.swift */; };
@@ -38,11 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		975C5EF8281FF036003DA5D8 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
-		975C5EFA281FF287003DA5D8 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		974A992F28202113003F7EEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		974A99312820219C003F7EEE /* LandMarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandMarksApp.swift; sourceTree = "<group>"; };
+		974A99332820F8B8003F7EEE /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		974A99372820FA50003F7EEE /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		979140F927FB42B4005364AF /* swiftUI-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftUI-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		979140FC27FB42B4005364AF /* LandMarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandMarksApp.swift; sourceTree = "<group>"; };
-		979140FE27FB42B4005364AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9791410027FB42B5005364AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9791410327FB42B5005364AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9791410927FB42B5005364AF /* swiftUI-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swiftUI-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,9 +106,9 @@
 				9791413527FB5A18005364AF /* Resources */,
 				9791413427FB59EC005364AF /* Model */,
 				9791413327FB59D6005364AF /* Views */,
-				979140FC27FB42B4005364AF /* LandMarksApp.swift */,
 				9791410027FB42B5005364AF /* Assets.xcassets */,
 				9791410227FB42B5005364AF /* Preview Content */,
+				974A99312820219C003F7EEE /* LandMarksApp.swift */,
 			);
 			path = "swiftUI-test";
 			sourceTree = "<group>";
@@ -141,9 +141,9 @@
 		9791413327FB59D6005364AF /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				979140FE27FB42B4005364AF /* ContentView.swift */,
-				975C5EF8281FF036003DA5D8 /* CircleImage.swift */,
-				975C5EFA281FF287003DA5D8 /* MapView.swift */,
+				974A992F28202113003F7EEE /* ContentView.swift */,
+				974A99332820F8B8003F7EEE /* CircleImage.swift */,
+				974A99372820FA50003F7EEE /* MapView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -231,6 +231,7 @@
 				TargetAttributes = {
 					979140F827FB42B4005364AF = {
 						CreatedOnToolsVersion = 13.3;
+						LastSwiftMigration = 1330;
 					};
 					9791410827FB42B5005364AF = {
 						CreatedOnToolsVersion = 13.3;
@@ -295,10 +296,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				979140FF27FB42B4005364AF /* ContentView.swift in Sources */,
-				975C5EFB281FF287003DA5D8 /* MapView.swift in Sources */,
-				979140FD27FB42B4005364AF /* LandMarksApp.swift in Sources */,
-				975C5EF9281FF036003DA5D8 /* CircleImage.swift in Sources */,
+				974A993028202113003F7EEE /* ContentView.swift in Sources */,
+				974A99382820FA50003F7EEE /* MapView.swift in Sources */,
+				974A99322820219C003F7EEE /* LandMarksApp.swift in Sources */,
+				974A99342820F8B8003F7EEE /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"swiftUI-test/Preview Content\"";
@@ -473,6 +475,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.raven.swiftUI-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -483,6 +486,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"swiftUI-test/Preview Content\"";

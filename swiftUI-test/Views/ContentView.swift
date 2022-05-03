@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  swiftUI-test
 //
-//  Created by apple developer academy on 2022/04/05.
+//  Created by apple developer academy on 2022/05/02.
 //
 
 import SwiftUI
@@ -11,28 +11,35 @@ struct ContentView: View {
     var body: some View {
         VStack {
             MapView()
-                .frame(height: 300, alignment: .center)
+                .ignoresSafeArea(edges: .top)
+                .frame(height: 300)
+            
             CircleImage()
                 .offset(y: -130)
                 .padding(.bottom, -130)
-            VStack(alignment: .leading){
-                Text("Hello world")
+            
+            VStack(alignment: .leading, spacing: 5) {
+                
+                Text("Black Raven")
                     .font(.title)
+                
                 HStack {
-                    Text("sample text")
+                    Text("Joshua Tree National Park")
+                        .font(.subheadline)
                     Spacer()
-                    Text("split!!")
+                    Text("California")
+                        .font(.subheadline)
                 }
-                .font(.subheadline)
-                .foregroundColor(.secondary)
                 
                 Divider()
                 
-                Text("About Turtle Rock")
-                    .font(.title2)
+                Text("Test").font(.title2).frame(alignment: .leading)
                 Text("Descriptive text goes here.")
-            }
-            .padding()
+                
+            }.padding()
+            
+            
+            
             Spacer()
         }
         
@@ -41,9 +48,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        Group {
-            ContentView()
-                .previewInterfaceOrientation(.portrait)
-        }
+        ContentView()
     }
 }
