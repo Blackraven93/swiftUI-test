@@ -17,6 +17,7 @@
 		9791411827FB42B5005364AF /* swiftUI_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9791411727FB42B5005364AF /* swiftUI_testUITests.swift */; };
 		9791411A27FB42B5005364AF /* swiftUI_testUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9791411927FB42B5005364AF /* swiftUI_testUITestsLaunchTests.swift */; };
 		9791412D27FB5790005364AF /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 9791412C27FB5790005364AF /* landmarkData.json */; };
+		97EAC39328225B93008F94F2 /* beverageData.json in Resources */ = {isa = PBXBuildFile; fileRef = 97EAC39228225B93008F94F2 /* beverageData.json */; };
 		97EAFF8A27FC2C39005A9AB6 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 97EAFF8927FC2C39005A9AB6 /* .gitignore */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,9 @@
 		9791411727FB42B5005364AF /* swiftUI_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftUI_testUITests.swift; sourceTree = "<group>"; };
 		9791411927FB42B5005364AF /* swiftUI_testUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftUI_testUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9791412C27FB5790005364AF /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		97EAC39128225AFC008F94F2 /* DataFormatter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DataFormatter.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		97EAC39228225B93008F94F2 /* beverageData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = beverageData.json; sourceTree = "<group>"; };
+		97EAC39428225E1B008F94F2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		97EAFF8927FC2C39005A9AB6 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +113,8 @@
 				9791410027FB42B5005364AF /* Assets.xcassets */,
 				9791410227FB42B5005364AF /* Preview Content */,
 				974A99312820219C003F7EEE /* LandMarksApp.swift */,
+				97EAC39128225AFC008F94F2 /* DataFormatter.playground */,
+				97EAC39428225E1B008F94F2 /* README.md */,
 			);
 			path = "swiftUI-test";
 			sourceTree = "<group>";
@@ -159,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				9791412C27FB5790005364AF /* landmarkData.json */,
+				97EAC39228225B93008F94F2 /* beverageData.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -271,6 +278,7 @@
 				97EAFF8A27FC2C39005A9AB6 /* .gitignore in Resources */,
 				9791410427FB42B5005364AF /* Preview Assets.xcassets in Resources */,
 				9791410127FB42B5005364AF /* Assets.xcassets in Resources */,
+				97EAC39328225B93008F94F2 /* beverageData.json in Resources */,
 				9791412D27FB5790005364AF /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

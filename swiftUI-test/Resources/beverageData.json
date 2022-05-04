@@ -1,0 +1,47 @@
+
+{
+    "createdAt": "2022-05-04 16:00",
+    "map" : {
+        "address": "경북 포항시 탐구 지곡동 166-3",
+        "longtitude": 129.3256411,
+        "latitude": 36.0144317
+    }
+    "name": "코카콜라 제로",
+    "manufacturer": "코카콜라 컴퍼니",
+    "ingredient": [
+        "정제수",
+        "이산화탄소",
+        "카라멜색소",
+        "인산",
+        "수크랄로스(감미료)",
+        "구연산삼나트륨",
+        "천연향료",
+        "아세설핌칼륨(감미료)",
+        "카페인(향미증진제)"
+    ],
+    "volume": {
+        "unit": "ml",
+        "value": 250
+    },
+
+    "price": {
+        "unit": "won",
+        
+    }
+
+    8. Category: String
+
+    9. Aroma: Array<String>
+
+    10. Taste: {
+        Sweet: Double
+        Sour: Double
+        Bitter: Double
+        Salty: Double
+        Savory: Double
+    }
+
+    11. Picture: Image
+
+
+}
