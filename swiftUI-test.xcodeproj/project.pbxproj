@@ -18,6 +18,9 @@
 		9791411A27FB42B5005364AF /* swiftUI_testUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9791411927FB42B5005364AF /* swiftUI_testUITestsLaunchTests.swift */; };
 		9791412D27FB5790005364AF /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 9791412C27FB5790005364AF /* landmarkData.json */; };
 		97EAC39328225B93008F94F2 /* beverageData.json in Resources */ = {isa = PBXBuildFile; fileRef = 97EAC39228225B93008F94F2 /* beverageData.json */; };
+		97EAC39628226266008F94F2 /* LandMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EAC39528226266008F94F2 /* LandMark.swift */; };
+		97EAC3982822697C008F94F2 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EAC3972822697C008F94F2 /* ModelData.swift */; };
+		97EAC39B28226E7F008F94F2 /* Beverage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EAC39A28226E7F008F94F2 /* Beverage.swift */; };
 		97EAFF8A27FC2C39005A9AB6 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 97EAFF8927FC2C39005A9AB6 /* .gitignore */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +58,11 @@
 		97EAC39128225AFC008F94F2 /* DataFormatter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DataFormatter.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		97EAC39228225B93008F94F2 /* beverageData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = beverageData.json; sourceTree = "<group>"; };
 		97EAC39428225E1B008F94F2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		97EAC39528226266008F94F2 /* LandMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandMark.swift; sourceTree = "<group>"; };
+		97EAC3972822697C008F94F2 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		97EAC39928226C87008F94F2 /* Bundle.main.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Bundle.main.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		97EAC39A28226E7F008F94F2 /* Beverage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beverage.swift; sourceTree = "<group>"; };
+		97EAC39C282284DD008F94F2 /* jsonDecode.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = jsonDecode.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		97EAFF8927FC2C39005A9AB6 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,6 +123,8 @@
 				974A99312820219C003F7EEE /* LandMarksApp.swift */,
 				97EAC39128225AFC008F94F2 /* DataFormatter.playground */,
 				97EAC39428225E1B008F94F2 /* README.md */,
+				97EAC39928226C87008F94F2 /* Bundle.main.playground */,
+				97EAC39C282284DD008F94F2 /* jsonDecode.playground */,
 			);
 			path = "swiftUI-test";
 			sourceTree = "<group>";
@@ -157,6 +167,9 @@
 		9791413427FB59EC005364AF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				97EAC39528226266008F94F2 /* LandMark.swift */,
+				97EAC3972822697C008F94F2 /* ModelData.swift */,
+				97EAC39A28226E7F008F94F2 /* Beverage.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -305,9 +318,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				974A993028202113003F7EEE /* ContentView.swift in Sources */,
+				97EAC39628226266008F94F2 /* LandMark.swift in Sources */,
 				974A99382820FA50003F7EEE /* MapView.swift in Sources */,
 				974A99322820219C003F7EEE /* LandMarksApp.swift in Sources */,
 				974A99342820F8B8003F7EEE /* CircleImage.swift in Sources */,
+				97EAC3982822697C008F94F2 /* ModelData.swift in Sources */,
+				97EAC39B28226E7F008F94F2 /* Beverage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

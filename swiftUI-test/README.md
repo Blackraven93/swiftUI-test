@@ -24,7 +24,7 @@
         "value": Int
     },
     "category": String,
-    "aroma": Array<String>,
+    "flavor": Array<String>,
     "taste": {
         "sweet": Double,
         "sour": Double,
@@ -32,6 +32,6 @@
         "salty": Double,
         "savory": Double
     },
-    "picture": Image
+    "imageName": Image
 }
 ```

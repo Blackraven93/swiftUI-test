@@ -19,3 +19,4 @@ myDateFormatter.locale = Locale(identifier:"ko_KR") // PM, AM을 언어에 맞�
 let convertStr = myDateFormatter.string(from: convertDate!)
 let convertNowStr = myDateFormatter.string(from: nowDate) // 현재 시간의 Date를 format에 맞춰 string으로 반환
 
+
