@@ -8,14 +8,29 @@
 import SwiftUI
 
 struct LandmarkList: View {
+    @EnvironmentObject var modelData: ModelData
+    @State private var showFavoritesOnly = false
+    
+    var filteredLandmarks: [Landmark] {
+        modelData.landmarks.filter { landmark in
+               (!showFavoritesOnly || landmark.isFavorite)
+           }
+       }
+                          
+    
     var body: some View {
         // Listview를 통해 각각 Row값을 한 줄 씩 전달
         NavigationView {
-            List(landmarks, id: \.id) { landmark in
-                NavigationLink {
-                    LandmarkDetail(landmark: landmark)
-                }label:{
-                    LandmarkRow(landmark: landmark)
+            List {
+                Toggle(isOn: $showFavoritesOnly) {
+                    Text("Favorites Only")
+                }
+                ForEach(filteredLandmarks) {landmark in
+                    NavigationLink {
+                        LandmarkDetail(landmark: landmark)
+                    } label:{
+                        LandmarkRow(landmark: landmark)
+                    }
                 }
             }.navigationTitle("Landmarks") // 내부 컨텐츠에 걸어야하는구나
         }

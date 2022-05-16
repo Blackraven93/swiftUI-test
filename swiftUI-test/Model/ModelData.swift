@@ -6,7 +6,13 @@
 //
 
 import Foundation
+import Combine
 
+// Use an Observable Object for Storage
+final class ModelData: ObservableObject {
+    // user가 직접적으로 favorite의 상태를 조작하기 위해서는 변화상태를 구독해야한다.
+    @Published var landmarks: [Landmark] = load("landmarkData.json")
+}
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
