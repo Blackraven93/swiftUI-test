@@ -16,6 +16,7 @@ final class ModelData: ObservableObject {
     @Published var landmarks: [Landmark] = load("landmarkData.json")
     // model에서 struct를 구성 핸들링 할 수 있는 json을 가져온다.
     var hikes: [Hike] = load("hikeData.json")
+    @Published var profile = Profile.default
     
     var features: [Landmark] {
        landmarks.filter { $0.isFeatured }
